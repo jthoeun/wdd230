@@ -1,13 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-* {
-    box-sizing: border-box;
-  }
   body {
+    font-family: "Roboto", sans-serif;
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr auto;
     grid-template-rows: auto auto 1fr auto;
-    font-family: "Roboto", sans-serif;
   }
   
   header {
