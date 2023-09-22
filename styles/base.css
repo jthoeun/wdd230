@@ -11,7 +11,7 @@
   }
   
   header {
-    background: royalblue;
+    background: lightgreen;
     padding: 2rem;
     grid-column: 1 / 3;
   }
@@ -32,6 +32,8 @@
     grid-column: 1 / 3;
     background-color: gray;
     padding: 1rem;
+    font-size: 20px;
+    
   }
   
   main {
@@ -66,7 +68,7 @@
   }
   
   footer {
-    background-color: royalblue;
+    background-color: lightgreen;
   }
   section {
     display: grid;
