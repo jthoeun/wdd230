@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@media screen and (min-width: 500px){
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 * {
     box-sizing: border-box;
   }
@@ -33,6 +34,7 @@
     background-color: #99f0ed;
     padding: 1rem;
     font-size: 20px;  
+    display: inline;
   }
   nav a{
     display: block;
@@ -42,8 +44,11 @@
   }
   nav ul {
     list-style-type: none;
+    display: inline;
   }
-  
+  nav ul li {
+    flex: 1 1 100%;
+  }
   main {
     background: white;
     height: 100%;
@@ -73,6 +78,7 @@
   }
   h3 {
     text-align: center;
+    
   }
   
   footer {
@@ -83,4 +89,5 @@
   }
 ul{
     list-style-type: none;
+}
 }
