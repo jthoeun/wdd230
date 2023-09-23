@@ -41,11 +41,20 @@
   }
   
   main {
-    background: white;
-    height: 100%;
-    padding: 1rem;
+    max-width: 550px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 25px;
+    
   }
-  
+  main section {
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0;
+    background-color: #eee;
+    max-width: 550px;
+  } 
   aside {
     background: yellow;
     grid-column: 2 / 3;
