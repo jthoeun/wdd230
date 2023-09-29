@@ -91,7 +91,9 @@ ul{
   font-size: 25px;
   display: inline;
 }
-
+iframe {
+  display: flex;
+}
 /* Hamburger Menu */
 .open li {
 	display: block;
