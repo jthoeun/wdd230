@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Roboto:wght@300&display=swap');
+
+root {
+ 
+    --primary-color: #00B4D8   ;
+    --secondary-color: #90E0EF ;
+    --accent1-color: #CAF0F8;
+    --accent2-color: white;
+  
+    
+    --heading-font: "Comfortaa";
+    --paragraph-font: Roboto, Helvetica, sans-serif;
+  
+    
+    --headline-color-on-white: #00B4D8;  
+    --headline-color-on-color: white; 
+    --paragraph-color-on-white: #00B4D8; 
+    --paragraph-color-on-color: white; 
+    --paragraph-background-color: #00B4D8  ;
+    --nav-link-color: #00B4D8;
+    --nav-background-color: #90E0EF;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #00B4D8;
+  }
+  
+  body {
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto 1fr auto;
+  }
+  
+  .hero-image {
+      height: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+  }
+  header {
+    padding: 1em;
+    text-align: center;
+    color: #90E0EF;
+    background-color:#00B4D8;
+    height: max-content;
+  }
+  
+  footer {
+    color: #00B4D8;
+    background-color: #CAF0F8;
+  }
+  .navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #333;
+	color: #fff;
+}
+.navigation li {
+	display: none;
+  background-color: #90E0EF;
+}
+.navigation li a {
+	display: block;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+  background-color: #90E0EF;
+}
+.navigation li a:hover {
+	background-color: #CAF0F8;
+	color: #90E0EF;
+	font-weight: 700;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem
+}
+section {
+    padding: 1rem;
+    background-color: #fff;
+}
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: .25rem .75rem;
+	background-color: #eee;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
+}
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❎";
+}
+
