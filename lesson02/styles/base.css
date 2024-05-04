@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    max-width: 520px;
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: lightblue
+}
+
+main,
+footer {
+    max-width: 520px;
+    margin: 1rem auto;
+    border: 1px solid #bbb;
+    padding: 1rem;
+    background-color: #e6f2ff;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+section {
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.card {
+    background: white;
+    color: black;
+    border-radius: 5px;
+    border: 10px;
+    box-shadow: 5px 5px 10px;
+}
+
+h2 {
+    background-color: lightblue;
+    max-width: 520px;
+    padding: 1rem;
+
+}
