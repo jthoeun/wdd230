@@ -3,6 +3,10 @@ body {
 }
 
 header {
+    text-align: center;
+}
+
+header {
     max-width: 520px;
     margin: 1rem auto;
     border: 1px solid #bbb;

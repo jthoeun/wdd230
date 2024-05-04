@@ -14,4 +14,9 @@
         padding: 1rem;
         background-color: #e6f2ff;
     }
+
+    header {
+        text-align: center;
+        background-color: lightblue;
+    }
 }

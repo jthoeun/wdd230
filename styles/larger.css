@@ -1,0 +1,17 @@
+@media screen and (min-width: 700px) {
+    nav ul {
+        display: flex;
+        text-align: center;
+    }
+
+    nav ul li {
+        text-align: justify;
+        flex: 1 1 100%;
+    }
+
+    main {
+        grid-template-columns: 2fr;
+
+    }
+
+}
