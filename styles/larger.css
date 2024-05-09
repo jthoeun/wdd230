@@ -1,4 +1,4 @@
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
     nav ul {
         display: flex;
         text-align: center;
@@ -15,4 +15,7 @@
 
     }
 
+    #menu {
+        display: none;
+    }
 }
