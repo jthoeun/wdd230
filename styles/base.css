@@ -124,3 +124,7 @@ h3 {
 .navigation.open {
     display: block;
 }
+
+.map {
+    max-width: auto;
+}
