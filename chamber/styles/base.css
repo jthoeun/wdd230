@@ -159,3 +159,17 @@ map.open {
     color: white;
     font-size: 25px;
 }
+
+#mode {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: #000;
+    color: #fff;
+    border-color: #eee;
+}
