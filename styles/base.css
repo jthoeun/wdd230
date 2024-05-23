@@ -128,3 +128,8 @@ h3 {
 map.open {
     display: none;
 }
+
+.map {
+    width: 100%;
+    height: auto;
+}
