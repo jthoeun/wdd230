@@ -10,5 +10,5 @@ modeButton.addEventListener("click", () => {
     main.classList.toggle('dark-mode');
     header.classList.toggle('dark-mode');
     footer.classList.toggle('dark-mode');
-    nav.toggle('dark-mode');
+    nav.classList.toggle('dark-mode');
 });
