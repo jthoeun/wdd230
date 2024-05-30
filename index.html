@@ -22,7 +22,7 @@
 <body>
     <header>
         <h1>
-            <img src="images/profile.png" alt="'Profile Picture"> Johnny Thoeun
+            <img src="images/profile.webp" alt="'Profile Picture"> Johnny Thoeun
         </h1>
     </header>
     <button id="menu"></button>
@@ -37,6 +37,16 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/temple-small.webp" media="(max-width: 400px)" type="image/webp">
+                <source srcset="images/temple-large.webp" media="(max-width: 960px)" type="image/webp">
+                <img src="images/temple-large.webp" alt="Washington, DC Temple" width="1500" height="750">
+            </picture>
+            <div class="hero-label">
+                <p>Washington, DC Temple</p>
+            </div>
+        </div>
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card">
             <h3>Learning Activites</h3>
