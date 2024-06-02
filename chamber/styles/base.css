@@ -105,12 +105,12 @@ h3 {
     background: none;
     color: #000;
     position: absolute;
-    top: 1rem;
+    top: 3rem;
     right: 1rem;
 }
 
 #menu::before {
-    content: "☰";
+    content: "⬇️";
 }
 
 #menu.open::before {
@@ -162,7 +162,7 @@ map.open {
 
 #mode {
     position: absolute;
-    top: 1rem;
+    top: 3rem;
     left: 1rem;
     font-size: 25px;
     cursor: pointer;
