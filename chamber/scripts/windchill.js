@@ -1,7 +1,7 @@
 function getWindChill() {
     // Get temperature and wind speed elements from the page
-    const tempElement = document.getElementById("currenttemp"); // Assuming element ID for temperature
-    const windSpeedElement = document.getElementById("windspeed"); // Assuming element ID for wind speed
+    const tempElement = document.getElementById("currenttemp");
+    const windSpeedElement = document.getElementById("windspeed");
 
     // Check if elements exist
     if (!tempElement || !windSpeedElement) {
@@ -27,7 +27,7 @@ function getWindChill() {
 }
 
 function displayWindChill(windChillValue) {
-    // Get the element where wind chill will be displayed (replace with your element ID)
+    // Get the element where wind chill will be displayed
     const windChillElement = document.getElementById("wind-chill");
 
     if (windChillElement) {
