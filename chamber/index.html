@@ -38,7 +38,12 @@
     </nav>
     <main>
         <div class="hero">
-            <img src="images/snake_river.jpg" alt="'hero image" class="hero-image">
+            <picture>
+                <source srcset="images/wdd230-org-small.webp" media="(max-width: 500px)">
+                <source srcset="images/wdd230-org-medium.webp" media="(max-width: 1000px)">
+                <source srcset="images/wdd230-org-large.webp" media="(max-width: 1500px)">
+                <img src="images/wdd230-org-large.webp" alt="hero image" width="1500" height="750" class="hero-image">
+            </picture>
             <div class="hero-text">
                 <p>Welcome!</p>
             </div>
@@ -52,8 +57,8 @@
         </section>
         <section class="card">
             <h2>Weather</h2>
-            <p>Current temputure:<span id="currenttemp"></span></p>
-            <p>Windspeed: <span id="windspeed"></span></p>
+            <p>Current temputure:<span id="current-temp"></span></p>
+            <p>Windspeed: <span id="wind-speed"></span></p>
             <p><span id="wind-chill"></span></p>
         </section>
         <section id="member" class="card">
