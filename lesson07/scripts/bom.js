@@ -49,21 +49,20 @@ button.addEventListener('click', () => {
 clearButton.addEventListener('click', () => {
   list.innerHTML = '';
   input.focus();
-  error.textContent = ''; // Clear error message
+  error.textContent = '';
 });
 
 function displayList(item) {
   let li = document.createElement('li');
   let deletebutton = document.createElement('button');
-  li.textContent = item; // note the use of the displayList parameter 'item'
+  li.textContent = item;
   deletebutton.textContent = '❌';
-  deletebutton.classList.add('delete'); // this references the CSS rule .delete{width:fit-content;} to size the delete button
+  deletebutton.classList.add('delete');
   li.append(deletebutton);
   list.append(li);
   deletebutton.addEventListener('click', function () {
     list.removeChild(li);
-    deleteChapter(li.textContent); // note this new function that is needed to remove the chapter from the array and localStorage.
-    input.focus(); // set the focus back to the input
+    deleteChapter(li.textContent);
   });
 }
 function setChapterList() {
