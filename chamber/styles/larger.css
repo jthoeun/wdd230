@@ -31,4 +31,28 @@
         grid-column: 1/3;
     }
 
+    .sidebar {
+        grid-column: 1;
+        padding: 10px;
+        grid-template-rows: auto;
+    }
+
+    .discover {
+        grid-column: 2;
+        align-items: center;
+        grid-row-start: 1;
+    }
+
+    .events {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-gap: 10px;
+        /* Adjust spacing between elements (optional) */
+        grid-template-columns: 1fr 2fr;
+        /* Define column widths */
+    }
 }

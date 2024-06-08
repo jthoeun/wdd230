@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Johnny Thoeun">
+    <meta name="description" content="WDD 230- Web Frontend Development Johnny Thoeun chamber project">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Johnny Thoeun Chamber Project- WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shoshone_falls.jpg/1024px-Shoshone_falls.jpg">
+    <meta property="og:url" content="https://jthoeun.github.io/wdd230/chamber/index.html">
+    <title>Bliss Chamber of Commerce</title>
+</head>
+
+<body>
+    <header>
+        <h1>Bliss Chamber of Commerce</h1>
+    </header>
+    <div id="mode">
+        ☀️/🌕
+    </div>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join Us</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section id="events" class="sidebar">
+            <h2>Upcoming events</h2>
+            <p>June 17- Monthly Chamber meeting</p>
+            <p>June 19- Juneteenth</p>
+            <p>July 4- Community fireworks</p>
+            <p>July 18- Monthly Chamber meeting</p>
+            <p>August 17- Community Fall Fun Day</p>
+        </section>
+        <section id="checkout" class="sidebar">
+            <h2>What to check out</h2>
+        </section>
+        <section id="Facts" class="sidebar">
+            <h2>Quick Facts</h2>
+        </section>
+        <section class="sidebar">
+            <h2>Nearest Cities</h2>
+            <p>Boise:</p>
+            <p>Mountain Home:</p>
+            <p>Glenns Ferry:</p>
+            <p>Wendell:</p>
+            <p>Gooding:</p>
+            <p>Jerome:</p>
+            <p>Twin Falls:</p>
+        </section>
+        <div class='discover'>
+            <figure>
+                <picture>
+                    <source srcset="images/bliss4-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/bliss4-medium.webp" media="(max-width: 1000px)">
+                    <source srcset="images/bliss4-large.webp" media="(max-width: 1500px)">
+                    <img src="images/bliss4-large.webp" alt="road sign" width="900" height="750" loading="lazy">
+                </picture>
+                <figcaption>Street sign</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <source srcset="images/bliss-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/bliss-medium.webp" media="(max-width: 1000px)">
+                    <source srcset="images/bliss-large.webp" media="(max-width: 1500px)">
+                    <img src="images/bliss-large.webp" alt="road sign" width="900" height="750" loading="lazy">
+                </picture>
+                <figcaption>Welcome sign</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <source srcset="images/bliss3-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/bliss3-medium.webp" media="(max-width: 1000px)">
+                    <source srcset="images/bliss3-large.webp" media="(max-width: 1300px)">
+                    <img src="images/bliss3-large.webp" alt="Waterfalls" width="900" height="750" loading="lazy">
+                </picture>
+                <figcaption>Waterfalls</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <source srcset="images/bliss2-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/bliss2-medium.webp" media="(max-width: 1000px)">
+                    <source srcset="images/bliss2-large.webp" media="(max-width: 1300px)">
+                    <img src="images/bliss2-large.webp" alt="Grain plant" width="900" height="750" loading="lazy">
+                </picture>
+                <figcaption>Grain plant</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <source srcset="images/twinfalls-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/twinfalls-medium.webp" media="(max-width: 1000px)">
+                    <source srcset="images/twinfalls-large.webp" media="(max-width: 1300px)">
+                    <img src="images/twinfalls-large.webp" alt="Shoshone Falls" width="900" height="750" loading="lazy">
+                </picture>
+                <figcaption>Shoshone Falls</figcaption>
+            </figure>
+            <figure>
+                <picture>
+                    <source srcset="images/bridge-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/bridge-medium.webp" media="(max-width: 1000px)">
+                    <source srcset="images/bridge-large.webp" media="(max-width: 1300px)">
+                    <img src="images/bridge-large.webp" alt="Waterfalls" width="900" height="750" loading="lazy">
+                </picture>
+                <figcaption>bridge</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <p>Contact Us! Facebook | Instagram | Email</p>
+        <p>This is a project for BYU-Idaho's WDD 230 class</p>
+        <p>
+            &copy;<span id="copyright-year"></span> Johnny Thoeun | Gooding Idaho
+        </p>
+        <p>Last modified: <span id="modified"></span></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+
+</html>

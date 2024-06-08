@@ -173,3 +173,14 @@ map.open {
     color: #fff;
     border-color: #eee;
 }
+
+
+.sidebar {
+    margin: 0;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    border: 10px;
+    box-shadow: 5px 5px 10px;
+    width: 100%;
+}
