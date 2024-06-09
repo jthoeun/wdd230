@@ -184,3 +184,15 @@ map.open {
     box-shadow: 5px 5px 10px;
     width: 100%;
 }
+
+figure {
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+figcaption {
+    font-style: italic;
+    padding: 2px;
+    text-align: left;
+}
