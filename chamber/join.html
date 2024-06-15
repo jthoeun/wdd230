@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Johnny Thoeun">
+    <meta name="description" content="WDD 230- Web Frontend Development Johnny Thoeun chamber project">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Johnny Thoeun Chamber Project- WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shoshone_falls.jpg/1024px-Shoshone_falls.jpg">
+    <meta property="og:url" content="https://jthoeun.github.io/wdd230/chamber/index.html">
+    <title>Join Us - Bliss Chamber of Commerce</title>
+</head>
+
+<body>
+    <header>
+        <h1>Join us!</h1>
+    </header>
+    <div id="mode">
+        ☀️/🌕
+    </div>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join Us</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="member-card">
+            <section class="member-card"></section>
+            <h2>Memberships</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2" scope="colgroup">Membership Levels</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Level of Membership</th>
+                        <th scope="col">Cost (per year)</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>NP Membership (Non-Profit)</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td>Bronze</td>
+                        <td>$199</td>
+                    </tr>
+                    <tr>
+                        <td>Sliver</td>
+                        <td>$299</td>
+                    </tr>
+                    <tr>
+                        <td>Gold</td>
+                        <td>$399</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <section class='form'>
+            <form method="get" action="thankyou.html" id="form" class="wf1">
+                <fieldset>
+                    <legend>User Information</legend>
+                    <label>First Name* <input type="text" id="fname" required></label>
+                    <label>Last Name* <input type="text" id="lname" required></label>
+                    <label>Title or Position* <input type="text" id="title" pattern="[a-zA-Z -]{7,}" required></label>
+                    <label>Email* <input type="email" id="email" name="email" placeholder="yourname@gmail.com"
+                            required></label>
+                    <label>Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                    <label>Name of Business/Organization:* <input type="text" id="org" required></label>
+                    <label>Membership Level
+                        <select name="member">
+                            <option value="">Please Select &#9662;</option>
+                            <option value="np">NP Membership (Free) </option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Sliver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select> </label>
+                    <label>Description of bussness/organization: <input type="text" id="description"></label>
+                    <input type="hidden" id="currentTime" name="currentTime">
+                </fieldset>
+                <input type="submit" value="Submit form">
+            </form>
+            </div>
+    </main>
+    <footer>
+        <p>Contact Us! Facebook | Instagram | Email</p>
+        <p>This is a project for BYU-Idaho's WDD 230 class</p>
+        <p>
+            &copy;<span id="copyright-year"></span> Johnny Thoeun | Gooding Idaho
+        </p>
+        <p>Last modified: <span id="modified"></span></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/message.js"></script>
+
+</body>
+
+</html>
