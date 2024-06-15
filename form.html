@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johnny Thoeun - WDD 230 - Web Frontend Development</title>
+    <meta name="author" content="Johnny Thoeun">
+    <meta name="description" content="WDD 230- Web Frontend Development Johnny Thoeun course assignment portal">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link href="styles/form.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <meta property="og:title" content="Johnny Thoeun - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shoshone_falls.jpg/1024px-Shoshone_falls.jpg">
+    <meta property="og:url" content="https://jthoeun.github.io/wdd230/">
+
+</head>
+
+<body>
+    <header>
+        <h1>
+            <img src="images/profile.webp" alt="'Profile Picture"> Johnny Thoeun
+        </h1>
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="https://byui.edu" target="_blank">BYU-Idaho</a>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/ot/isa/25?lang=eng&id=p4#p4"
+                    target="_blank">Scripture</a></li>
+        </ul>
+    </nav>
+    <main>
+        <fieldset>
+            <h1>User Registration</h1>
+            <form method="get" action="record.html" class="wf1">
+                <fieldset>
+                    <legend>User Information</legend>
+                    <label>Username* <input type="text" id="username" name="username" required></label>
+                    <label>Password* <input type="password" id="password" name="password" required
+                            pattern="[A-Za-z0-9]{8,}"></label>
+                    <label>Confirm Password* <input type="password" id="password2" name="password2" required></label>
+                    <label>Email* <input type="email" id="email" name="email" placeholder="yourname@byui.edu"
+                            title="A valid byui.edu address" pattern="[a-zA-Z0-9_.\-]+@byui.edu" required></label>
+                    <label>Page Rating</label>
+                    <div>
+                        <input type="range" id="rating" name="rating" min="0" max="10" value="0" step="1"
+                            list="rangevalues">
+                        <output id="rangevalue">0</output>
+                    </div>
+                    <datalist id="rangevalues">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+                </fieldset>
+
+                <input type="submit" value="Register Course Proposal">
+            </form>
+    </main>
+    <footer>
+        <p>
+            &copy;<span id="copyright-year"></span> Johnny Thoeun | Gooding Idaho
+        </p>
+        <p>Last modified: <span id="modified"></span></p>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/pagecounter.js"></script>
+</body>
+
+</html>
