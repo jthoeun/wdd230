@@ -18,6 +18,7 @@ const displayProphets = (prophets) => {
 
         // Build the h2 content out to show the prophet's full name
         fullName.textContent = `${prophet.name} ${prophet.lastname}`; // fill in the blank
+        //Date of bith
         // Build the image portrait by setting all the relevant attributes
         portrait.setAttribute('src', prophet.imageurl);
         portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`); // fill in the blank
