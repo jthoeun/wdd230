@@ -10,9 +10,7 @@ function displayLinks(data) {
     li.textContent = `${data.lesson}: `;
 
     data.links.forEach(link => {
-
         let a = document.createElement("a");
-
         a.setAttribute("href", link.url);
         a.textContent = `${link.title}| `;
         li.appendChild(a);
