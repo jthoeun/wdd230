@@ -21,7 +21,7 @@ main {
     margin-left: 2rem;
 }
 
-.cards {
+#cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
