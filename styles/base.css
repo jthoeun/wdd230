@@ -174,3 +174,11 @@ map.open {
     font-size: 1.5rem;
     font-family: "Roboto", serif;
 }
+
+.week ul {
+    list-style-type: none;
+}
+
+.week li {
+    display: inline-flex;
+}

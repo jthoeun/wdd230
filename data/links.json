@@ -14,7 +14,7 @@
             "links": [
                 {
                     "url": "lesson02/mediaquery.html",
-                    "title": "Media Queries"
+                    "title": "Media Queries |"
                 },
                 {
                     "url": "lesson02/design-principles.html",
@@ -27,11 +27,11 @@
             "links": [
                 {
                     "url": "lesson03/images/css_exercise.png",
-                    "title": "CSS Combinators"
+                    "title": "CSS Combinators |"
                 },
                 {
                     "url": "https://codepen.io/jthoeun/pen/pomooRa",
-                    "title": "CSS Pseudo-element"
+                    "title": "CSS Pseudo-element |"
                 },
                 {
                     "url": "https://codepen.io/jthoeun/pen/WNBNNEX",
@@ -71,7 +71,7 @@
             "links": [
                 {
                     "url": "lesson07/lazyload.html",
-                    "title": "Lazy Load"
+                    "title": "Lazy Load |"
                 },
                 {
                     "url": "lesson07/bom.html",
@@ -84,7 +84,7 @@
             "links": [
                 {
                     "url": "lesson08/tablebuild.html",
-                    "title": "Table Build"
+                    "title": "Table Build |"
                 },
                 {
                     "url": "lesson08/form-start/index.html",
@@ -97,7 +97,7 @@
             "links": [
                 {
                     "url": "lesson09/new-ward-members.json",
-                    "title": "JSON"
+                    "title": "JSON | "
                 },
                 {
                     "url": "lesson09/prophets.html",

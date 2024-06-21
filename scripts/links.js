@@ -1,22 +1,44 @@
-const baseURL = "https://jthoueun.github.io/wdd230/";
 const linksURL = "https://jthoeun.github.io/wdd230/data/links.json";
+
 async function getLinks() {
-    const response = await fetch(linksURL);
-    const data = await response.json();
-    displayLinks(data);
+    try {
+        // Fetch the JSON data
+        const response = await fetch(linksURL);
+        const data = await response.json();
+
+        // Call the function to display links
+        displayLinks(data.lessons);
+    } catch (error) {
+        console.error('Error fetching the links:', error);
+    }
 }
-function displayLinks(data) {
-    let li = document.createElement("li");
-    li.textContent = `${data.lesson}: `;
 
-    data.links.forEach(link => {
-        let a = document.createElement("a");
-        a.setAttribute("href", link.url);
-        a.textContent = `${link.title}| `;
-        li.appendChild(a);
+function displayLinks(lessons) {
+    const linksContainer = document.querySelector('#linksContainer');
+    linksContainer.innerHTML = ''; // Clear existing content
+
+    lessons.forEach(lesson => {
+        const lessonElement = document.createElement('div');
+        lessonElement.classList.add('week');
+
+        const lessonTitle = document.createElement('ol');
+        lessonTitle.textContent = `Week ${lesson.lesson}`;
+        lessonElement.appendChild(lessonTitle);
+
+        const linksList = document.createElement('ul');
+
+        lesson.links.forEach(link => {
+            const listItem = document.createElement('li');
+            const anchor = document.createElement('a');
+            anchor.href = `${link.url}`;
+            anchor.textContent = link.title;
+            listItem.appendChild(anchor);
+            linksList.appendChild(listItem);
+        });
+
+        lessonElement.appendChild(linksList);
+        linksContainer.appendChild(lessonElement);
     });
-
-    listEl.appendChild(li);
-};
+}
 
 getLinks();
