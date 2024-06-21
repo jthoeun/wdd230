@@ -177,8 +177,18 @@ map.open {
 
 .week ul {
     list-style-type: none;
+
+}
+
+.week ol {
+    text-align: center;
+    list-style-position: inside
+}
+
+.week {
+    display: flex;
 }
 
 .week li {
-    display: inline-flex;
+    display: inline-block;
 }
