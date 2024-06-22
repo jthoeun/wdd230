@@ -10,7 +10,7 @@
             },
             "phone": "208-836-7083",
             "website": "https://loves.com",
-            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Love%27s_logo.svg",
+            "imageurl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Love%27s_logo.svg",
             "membershipLevel": "Gold",
             "additionalInfo": {
                 "industry": "Transport/Gas"
@@ -42,7 +42,7 @@
             },
             "phone": "208-352-4445",
             "website": "http://www.bliss234.org/",
-            "image": "https://img1.wsimg.com/isteam/ip/5dda1d52-95b8-40a0-9d50-fa1547db2406/logo/d657cd00-4ccb-4d1a-b07b-166e7cfd8c66.png/:/rs=w:169,h:169,cg:true,m/cr=w:169,h:169/qt=q:95",
+            "imageurl": "https://img1.wsimg.com/isteam/ip/5dda1d52-95b8-40a0-9d50-fa1547db2406/logo/d657cd00-4ccb-4d1a-b07b-166e7cfd8c66.png/:/rs=w:169,h:169,cg:true,m/cr=w:169,h:169/qt=q:95",
             "membershipLevel": "Non-Profit",
             "additionalInfo": {
                 "industry": "Education"
@@ -73,7 +73,7 @@
                 "zip": "833314"
             },
             "phone": "208-358-5109",
-            "website": "N/A",
+            "imageurl": "N/A",
             "image": "N/A",
             "membershipLevel": "Bronze",
             "additionalInfo": {
@@ -90,7 +90,7 @@
             },
             "phone": "208-352-4411",
             "website": "https://www.andersonsgrain.com/",
-            "image": "https://www.andersonsgrain.com/globalassets/ande_primary_logo.svg",
+            "imageurl": "https://www.andersonsgrain.com/globalassets/ande_primary_logo.svg",
             "membershipLevel": "Gold",
             "additionalInfo": {
                 "industry": "Production"
@@ -106,7 +106,7 @@
             },
             "phone": "800-275-8777",
             "website": "https://www.usps.com",
-            "image": "https://en.wikipedia.org/wiki/United_States_Postal_Service#/media/File:United_States_Postal_Service_Logo.svg",
+            "imageurl": "https://en.wikipedia.org/wiki/United_States_Postal_Service#/media/File:United_States_Postal_Service_Logo.svg",
             "membershipLevel": "Gold",
             "additionalInfo": {
                 "industry": "Postal/Shipping"
