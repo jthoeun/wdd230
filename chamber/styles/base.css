@@ -291,3 +291,35 @@ tbody tr:nth-child(2) {
 .thank-you {
     text-align: center;
 }
+
+.menu {
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.list section>* {
+    margin: 0 1rem;
+}
+
+.list section img {
+    display: none;
+    /* smaller viewports only */
+}
+
+.list section h3 {
+    font-size: 1rem;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list section:nth-child(even) {
+    background-color: #bed;
+}
