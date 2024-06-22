@@ -1,0 +1,116 @@
+{
+    "companies": [
+        {
+            "name": "Love's Travel Stop",
+            "address": {
+                "street": "680 US-30",
+                "city": "Bliss",
+                "state": "ID",
+                "zip": "83314"
+            },
+            "phone": "208-836-7083",
+            "website": "https://loves.com",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Love%27s_logo.svg",
+            "membershipLevel": "Gold",
+            "additionalInfo": {
+                "industry": "Transport/Gas"
+            }
+        },
+        {
+            "name": "Phillips 66",
+            "address": {
+                "street": "745 US-30",
+                "city": "Bliss",
+                "state": "ID",
+                "zip": "833314"
+            },
+            "phone": "208-352-1070",
+            "website": "https://phillips66gas.com",
+            "image": "https://en.wikipedia.org/wiki/Phillips_66#/media/File:Phillips_66_logo.svg",
+            "membershipLevel": "Silver",
+            "additionalInfo": {
+                "industry": "Transport/Gas"
+            }
+        },
+        {
+            "name": "Bliss Public School",
+            "address": {
+                "street": "601 US-30",
+                "city": "Bliss",
+                "state": "ID",
+                "zip": "833314"
+            },
+            "phone": "208-352-4445",
+            "website": "http://www.bliss234.org/",
+            "image": "https://img1.wsimg.com/isteam/ip/5dda1d52-95b8-40a0-9d50-fa1547db2406/logo/d657cd00-4ccb-4d1a-b07b-166e7cfd8c66.png/:/rs=w:169,h:169,cg:true,m/cr=w:169,h:169/qt=q:95",
+            "membershipLevel": "Non-Profit",
+            "additionalInfo": {
+                "industry": "Education"
+            }
+        },
+        {
+            "name": "Los Prtrillos Mexican Restaurant",
+            "address": {
+                "street": "199 US-30",
+                "city": "Bliss",
+                "state": "ID",
+                "zip": "83314"
+            },
+            "phone": "208-352-1092",
+            "website": "N/A",
+            "image": "NA",
+            "membershipLevel": "Bronze",
+            "additionalInfo": {
+                "industry": "Dining"
+            }
+        },
+        {
+            "name": "MD Meats",
+            "address": {
+                "street": "812 US-26",
+                "city": "Bliss",
+                "state": "ID",
+                "zip": "833314"
+            },
+            "phone": "208-358-5109",
+            "website": "N/A",
+            "image": "N/A",
+            "membershipLevel": "Bronze",
+            "additionalInfo": {
+                "industry": "Butcher Shop"
+            }
+        },
+        {
+            "name": "The Andersons inc",
+            "address": {
+                "street": "805 US-26",
+                "city": "Bliss",
+                "state": "ID",
+                "zip": "83314"
+            },
+            "phone": "208-352-4411",
+            "website": "https://www.andersonsgrain.com/",
+            "image": "https://www.andersonsgrain.com/globalassets/ande_primary_logo.svg",
+            "membershipLevel": "Gold",
+            "additionalInfo": {
+                "industry": "Production"
+            }
+        },
+        {
+            "name": "USPS",
+            "address": {
+                "street": "100 US-30",
+                "city": "Bliss",
+                "state": "ID",
+                "zip": "83314"
+            },
+            "phone": "800-275-8777",
+            "website": "https://www.usps.com",
+            "image": "https://en.wikipedia.org/wiki/United_States_Postal_Service#/media/File:United_States_Postal_Service_Logo.svg",
+            "membershipLevel": "Gold",
+            "additionalInfo": {
+                "industry": "Postal/Shipping"
+            }
+        }
+    ]
+}
