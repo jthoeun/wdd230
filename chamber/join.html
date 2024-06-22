@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Johnny Thoeun">
-    <meta name="description" content="WDD 230- Web Frontend Development Johnny Thoeun chamber project">
+    <meta name="description" content="WDD 230- Web Frontend Development Johnny Thoeun chamber project join Page">
     <link href="styles/normalize.css" rel="stylesheet">
     <link href="styles/base.css" rel="stylesheet">
     <link href="styles/medium.css" rel="stylesheet">
@@ -38,7 +38,6 @@
     </nav>
     <main>
         <div class="member-card">
-            <section class="member-card"></section>
             <h2>Memberships</h2>
             <table>
                 <thead>
@@ -71,13 +70,13 @@
                 </tbody>
             </table>
         </div>
-        <section class='form'>
+        <div class='form'>
             <form method="get" action="thankyou.html" id="form" class="wf1">
                 <fieldset>
                     <legend>User Information</legend>
                     <label>First Name* <input type="text" id="fname" required></label>
                     <label>Last Name* <input type="text" id="lname" required></label>
-                    <label>Title or Position* <input type="text" id="title" pattern="[a-zA-Z -]{7,}" required></label>
+                    <label>Title or Position* <input type="text" id="title" pattern="[A-Za-z]+" required></label>
                     <label>Email* <input type="email" id="email" name="email" placeholder="yourname@gmail.com"
                             required></label>
                     <label>Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
@@ -90,12 +89,13 @@
                             <option value="silver">Sliver Membership</option>
                             <option value="gold">Gold Membership</option>
                         </select> </label>
-                    <label>Description of bussness/organization: <input type="text" id="description"></label>
-                    <input type="hidden" id="currentTime" name="currentTime">
+                    <label>Description of bussness/organization: <textarea id="description" rows="1" cols="30"
+                            placeholder="type here"></textarea></label>
+                    <label><input type="hidden" id="currentTime" name="currentTime"></label>
                 </fieldset>
                 <input type="submit" value="Submit form">
             </form>
-            </div>
+        </div>
     </main>
     <footer>
         <p>Contact Us! Facebook | Instagram | Email</p>

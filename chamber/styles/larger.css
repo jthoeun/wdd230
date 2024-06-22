@@ -109,13 +109,11 @@
 
     .form input::before {
         content: attr(placeholder);
-        position: center;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: gray;
         opacity: 0.5;
-        pointer-events: none;
     }
 
     .form input:focus::before {

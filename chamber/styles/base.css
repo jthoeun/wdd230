@@ -260,7 +260,7 @@ tbody tr:nth-child(2) {
 .wf1 input[type="number"],
 .wf1 input[type="org"],
 .wf1 input[type="member"],
-.wh1 input[type="description"] {
+.wh1 textarea[type="description"] {
     background-color: #eee;
     border: solid 1px #999;
     border-radius: 6px;
@@ -269,7 +269,6 @@ tbody tr:nth-child(2) {
     width: 100%;
     max-width: 400px;
     appearance: none;
-    text-align: center;
 }
 
 .wf1 input[type="submit"] {
