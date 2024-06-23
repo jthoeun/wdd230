@@ -8,30 +8,33 @@ async function getCompanyData() {
 
 }
 
-getCompanyData();
+getCompanyData(); // Assuming this function fetches the company data
+
 const displayCompany = (companies) => {
-    companies.forEach((companies) => {
+    companies.forEach((company) => { // Use singular 'company' for clarity
+
         // Create elements to add to the div.cards element
         let card = document.createElement('section');
         let companyName = document.createElement('h3'); // fill in the blank
         let logo = document.createElement('img');
-        let address = document.createElement('p')
-        let website = document.createElement('p')
+        let address = document.createElement('p');
+        let website = document.createElement('p');
 
         // Build the h2 content out to show the prophet's full name
-        companyName.textContent = `${companies.name}`;
+        companyName.textContent = `${company.name}`;
 
-        //Address
-        address.textContent = `${companies.address}`;
+        // Address
+        const { street, city, state, zip } = company.address; // Destructuring for cleaner address logic
+        address.textContent = `${street}, ${city}, ${state} ${zip}`;  // Access individual address properties
 
         // Build the image portrait by setting all the relevant attributes
-        logo.setAttribute('src', companies.imageurl);
-        logo.setAttribute('alt', `logo of ${companies.name}`);
+        logo.setAttribute('src', company.imageurl);
+        logo.setAttribute('alt', `logo of ${company.name}`);
         logo.setAttribute('loading', 'lazy');
         logo.setAttribute('width', '340');
         logo.setAttribute('height', '440');
 
-        website.textContent = `${companies.website}`;
+        website.textContent = `${company.website}`;
 
         // Append the section(card) with the created elements
         card.appendChild(companyName); //fill in the blank
@@ -41,4 +44,4 @@ const displayCompany = (companies) => {
 
         cards.appendChild(card);
     }); // end of arrow function and forEach loop
-}
+};
