@@ -321,7 +321,7 @@ tbody tr:nth-child(2) {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 5px;
-    align-items: flex;
+    align-items: center;
 }
 
 .list {
@@ -333,4 +333,9 @@ tbody tr:nth-child(2) {
     margin: 0 auto;
     text-align: center;
     padding: 0.5rem;
+}
+
+img {
+    height: 75px;
+    max-width: 100%;
 }
