@@ -292,13 +292,6 @@ tbody tr:nth-child(2) {
     text-align: center;
 }
 
-.menu {
-    margin: 1rem auto;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 0.5rem;
-    text-align: center;
-}
-
 .list section {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
@@ -322,4 +315,22 @@ tbody tr:nth-child(2) {
 
 .list section:nth-child(even) {
     background-color: #bed;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 5px;
+    align-items: flex;
+}
+
+.list {
+    margin: 0 auto;
+    /* Add margin: 0 auto; to the .list selector */
+}
+
+.menu {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.5rem;
 }

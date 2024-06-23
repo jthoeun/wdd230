@@ -1,18 +1,22 @@
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("cards");
+const gridButton = document.getElementById('grid');
+const listButton = document.getElementById('list');
+const cardsContainer = document.getElementById('cards');
 
-
-
-gridbutton.addEventListener("click", () => {
-
-    display.classList.add("grid");
-    display.classList.remove("list");
-});
-
-listbutton.addEventListener("click", showList);
-
-function showList() {
-    display.classList.add("list");
-    display.classList.remove("grid");
+// Function to set grid view
+function setGridView() {
+    cardsContainer.classList.remove('list');
+    cardsContainer.classList.add('grid');
 }
+
+// Function to set list view
+function setListView() {
+    cardsContainer.classList.remove('grid');
+    cardsContainer.classList.add('list');
+}
+
+// Initial view (set to grid by default)
+setGridView();
+
+// Add click event listeners to buttons
+gridButton.addEventListener('click', setGridView);
+listButton.addEventListener('click', setListView);
