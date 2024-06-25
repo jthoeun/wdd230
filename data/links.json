@@ -113,8 +113,8 @@
             "lesson": "10",
             "links": [
                 {
-                    "url": "#",
-                    "title": "TBD Assignment"
+                    "url": "lesson10/weather.html",
+                    "title": "Weather API"
                 }
             ]
         }
