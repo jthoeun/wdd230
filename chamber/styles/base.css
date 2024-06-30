@@ -339,3 +339,34 @@ img {
     height: 75px;
     max-width: 100%;
 }
+
+#banner {
+    background-color: greenyellow;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-family: "Roboto", Helvetica, sans-serif;
+}
+
+#closeBanner {
+    background-color: transparent;
+    /* Remove default button background */
+    border: none;
+    /* Remove default button border */
+    font-size: 1.5rem;
+    /* Adjust font size for close button */
+    cursor: pointer;
+    /* Set cursor to pointer on hover */
+    vertical-align: middle;
+    display: inline-block;
+    /* Make button inline-block */
+    margin-left: 1rem;
+    /* Add some margin for spacing (optional) */
+}

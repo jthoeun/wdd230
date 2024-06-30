@@ -189,4 +189,33 @@
         font-size: smaller;
     }
 
+    #banner {
+        background-color: greenyellow;
+        /* Light gray background */
+        padding: 1rem;
+        /* Padding for content inside the banner */
+        text-align: center;
+        /* Center the content horizontally */
+        display: flex;
+        /* Allow for aligning elements within the banner */
+        justify-content: space-between;
+        /* Space out elements horizontally */
+        align-items: center;
+        /* Align elements vertically */
+    }
+
+    #banner h2 {
+        font-size: 1.5rem;
+        /* Increase font size for larger screens */
+    }
+
+    #closeBanner {
+        font-size: 2rem;
+        /* Increase close button font size for larger screens */
+        display: inline-block;
+        /* Make button inline-block */
+        margin-left: 1rem;
+        /* Add some margin for spacing (optional) */
+    }
+
 }

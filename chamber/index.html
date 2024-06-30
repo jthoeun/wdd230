@@ -36,6 +36,10 @@
             </li>
         </ul>
     </nav>
+    <div id="banner" class="banner">
+        <h2>Meet & Greet! Wednesday @ 7PM!</h2>
+        <button id="closeBanner">❌</button>
+    </div>
     <main>
         <div class="hero">
             <picture>
@@ -52,13 +56,17 @@
             </div>
         </div>
         <section class="card">
-            <h2>current event</h2>
+            <h3>current event</h3>
             <p>No upcoming events!</p>
         </section>
         <section class="card">
-            <h2>Weather</h2>
-            <p>Current temputure:<span id="current-temp"></span></p>
-            <p>Windspeed: <span id="wind-speed"></span></p>
+            <h3>Weather in Bliss, Idaho</h3>
+            <p id="current-temp"></p>
+            <p id="weather-desc"></span>
+            <h3>3-Day Forecast</h3>
+            <div id="forecast-container"></div>
+            <p>Windspeed: <span id="wind-speed"></span>
+            </p>
             <p><span id="wind-chill"></span></p>
         </section>
         <section id="member" class="card">
@@ -78,6 +86,9 @@
     <script src="scripts/menu.js"></script>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/banner.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/currentweather.js"></script>
 </body>
 
 </html>
