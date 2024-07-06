@@ -30,4 +30,3 @@ function displayResults(data) {
     weatherIcon.setAttribute('alt', capitalizedDesc);
     captionDec.textContent = capitalizedDesc;
 }
-
