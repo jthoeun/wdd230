@@ -1,6 +1,6 @@
 function showBanner() {
     const today = new Date();
-    const showOnDays = [1, 2, 3, 6];
+    const showOnDays = [1, 2, 3];
 
 
     if (showOnDays.includes(today.getDay())) {
