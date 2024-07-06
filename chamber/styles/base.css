@@ -370,3 +370,12 @@ img {
     margin-left: 1rem;
     /* Add some margin for spacing (optional) */
 }
+
+#gold-members {
+    list-style-type: none;
+    /* Remove bullet points */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0;
+    /* Remove default margin */
+}
