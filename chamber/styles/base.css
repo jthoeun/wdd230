@@ -379,3 +379,22 @@ img {
     margin: 0;
     /* Remove default margin */
 }
+
+.discover {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    /* Adjust gap size as needed */
+}
+
+.discover figure {
+    margin: 0;
+    /* Remove any default margin */
+}
+
+.discover img {
+    width: 100%;
+    /* Images will fill the container width */
+    height: auto;
+    /* Maintains aspect ratio */
+}
