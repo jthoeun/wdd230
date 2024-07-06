@@ -14,7 +14,6 @@ function showGoldMembers() {
             const memberElement = document.createElement("li"); // Create list item for each member
             memberElement.innerHTML = `
           <img src="${member.imageurl || member.image}" alt="${member.name} Logo">  
-          <h3>${member.name}</h3>
           `;
             goldMemberList.appendChild(memberElement);
         });
