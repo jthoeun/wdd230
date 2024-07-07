@@ -79,12 +79,13 @@ nav ul {
 nav a {
 
     text-align: center;
-    padding: 2rem;
+
     text-decoration: none;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    /* Remove underline on hover */
 }
 
 .active {

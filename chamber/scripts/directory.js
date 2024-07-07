@@ -19,8 +19,9 @@ const displayCompany = (companies) => {
         let logo = document.createElement('img');
         let address = document.createElement('p');
         let website = document.createElement('p');
+        let membership = document.createElement('p');
 
-        // Build the h2 content out to show the prophet's full name
+
         companyName.textContent = `${company.name}`;
 
         // Address
@@ -36,11 +37,15 @@ const displayCompany = (companies) => {
 
         website.textContent = `${company.website}`;
 
+        membership.textContent = `Membership: ${company.membershipLevel}`
+
         // Append the section(card) with the created elements
         card.appendChild(companyName); //fill in the blank
         card.appendChild(logo);
         card.appendChild(address);
         card.appendChild(website);
+        card.appendChild(membership);
+
 
         cards.appendChild(card);
     }); // end of arrow function and forEach loop

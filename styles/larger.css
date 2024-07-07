@@ -24,6 +24,9 @@
         display: block;
     }
 
+    .map {
+        grid-column: 1/3;
+    }
 
 
 }
