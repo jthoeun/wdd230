@@ -398,3 +398,7 @@ img {
     height: auto;
     /* Maintains aspect ratio */
 }
+
+.form {
+    text-align: left;
+}
