@@ -231,7 +231,6 @@ div.menu {
 }
 
 div.container {
-    display: grid;
     justify-content: center;
     grid-template-rows: auto 1fr;
     /* Allocate remaining space to grid article */
@@ -254,4 +253,8 @@ div.container {
 #cards {
     grid-row: 2;
     /* Position within grid (optional) */
+}
+
+.outer-container {
+    grid-column: 1/3;
 }
