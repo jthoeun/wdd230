@@ -1,0 +1,79 @@
+@media (min-width: 768px) {
+    header {
+        display: flex;
+
+    }
+
+    header nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+    }
+/* Nav */
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    nav a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 48px;
+        margin: 0;
+    }
+
+    nav a img {
+        padding: 0px;
+        margin: 0px;
+    }
+    nav ul {
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      
+      nav li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+/* Rental section */
+    .rental-card {
+        flex-direction: column;
+    }
+/* weather */
+    .weather {
+        display: flex;
+        justify-content: space-between;
+    }
+    #weather{
+        text-align: center;
+    }
+    #current-weather,
+    #forecast-weather {
+        display: inline-block;
+        width: 45%;
+        /* Adjust width as needed */
+    }
+/* Hero */
+    .hero {
+      height: 500px;
+      /* Remove any width related styles here */
+    }
+/* Map */
+.map {
+    grid-column: 1/3;
+}  
+
+}

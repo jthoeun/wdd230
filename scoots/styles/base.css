@@ -1,0 +1,231 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #90EE90;
+}
+
+header h1 {
+    text-align: center;
+
+}
+
+/*Nav*/
+nav {
+    background-color: #90EE90;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+nav ul {
+    list-style: none;
+    display: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 10px 0;
+  }
+
+nav li a {
+    color: #333;
+    /* Dark text for contrast */
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    background-color: #e0f2ff;
+    /* Lighter blue on hover */
+}
+/* Menu */
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.open {
+    display: block;
+}
+/* Style the hamburger button */
+.menu-toggle {
+    display: block;
+    cursor: pointer;
+  }
+  #menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1000; /* Ensure it's above other elements */
+  }
+  
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('../images/hero-image.webp'), url('../images/hero-image.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /* This line ensures the image scales to fit the container */
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+    padding: 2rem;
+    margin: 0px;
+    flex-direction: column;
+    
+  }
+
+.hero h1,
+.hero p {
+    margin: 0;
+}
+
+.hero .cta {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+}
+
+/* Rentals */
+#rentals h2 {
+    text-align: center;
+}
+
+.rental-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.rental-card {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 20px;
+}
+
+.rental-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.rental-card h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.rental-card p {
+    margin-bottom: 10px;
+}
+
+.rental-card a {
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.rental-card img {
+    max-width: 100%;
+    height: 200px;
+    /* Adjust height as needed */
+    object-fit: cover;
+}
+
+.rental-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+/* Contact */
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+#contact {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#contact h2 {
+    margin-right: 10px;
+    /* Adjust spacing as needed */
+}
+
+.social-media {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    margin-left: 5px;
+    /* Adjust spacing as needed */
+}
+
+/*Wather*/
+#weather {
+    padding: 20px 5px;
+    text-align: left;
+}
+
+#current-weather,
+#forecast-weather {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+/*Footer */
+
+/* Map */
+
+.map {
+  width: 100%;
+  height: 100%;
+  position: relative; /* Needed for positioning the iframe absolutely */
+}
+
+.map iframe {
+  width: 100%; /* Set iframe width to 100% of its container */
+  height: 100%; /* Set iframe height to 100% of its container */
+}
+  
