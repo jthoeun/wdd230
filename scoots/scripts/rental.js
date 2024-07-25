@@ -34,8 +34,13 @@ fetch(url)
                     </tr>
                 </tbody>
             </table>
-            <button class="rent-button">Rent Now</button>
+            <button class="rent-button">Reserve</button>
         `;
+            const rentButton = card.querySelector('.rent-button');
+            rentButton.addEventListener('click', () => {
+                // Open reservation page logic here
+                window.location.href = 'reserve.html'; // Replace with your reservation page URL and pass rental ID
+            });
 
             return card;
         }
