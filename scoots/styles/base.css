@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: sandybrown;
 }
 
 /* Header */
@@ -17,6 +18,10 @@ header h1 {
 
 }
 
+main {
+    background-color: sandybrown;
+}
+
 /*Nav*/
 nav {
     background-color: #90EE90;
@@ -30,12 +35,12 @@ nav ul {
     list-style: none;
     display: none;
     padding: 0;
-  }
-  
-  nav li {
+}
+
+nav li {
     display: inline-block;
     margin: 10px 0;
-  }
+}
 
 nav li a {
     color: #333;
@@ -50,6 +55,7 @@ nav li a:hover {
     background-color: #e0f2ff;
     /* Lighter blue on hover */
 }
+
 /* Menu */
 
 #menu::before {
@@ -67,21 +73,24 @@ nav li a:hover {
 .navigation.open {
     display: block;
 }
+
 /* Style the hamburger button */
 .menu-toggle {
     display: block;
     cursor: pointer;
-  }
-  #menu {
+}
+
+#menu {
     position: fixed;
     top: 20px;
     left: 20px;
     background: transparent;
     border: none;
     cursor: pointer;
-    z-index: 1000; /* Ensure it's above other elements */
-  }
-  
+    z-index: 1000;
+    /* Ensure it's above other elements */
+}
+
 
 /* Hero */
 .hero {
@@ -92,14 +101,15 @@ nav li a:hover {
     background: url('../images/hero-image.webp'), url('../images/hero-image.png');
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover; /* This line ensures the image scales to fit the container */
+    background-size: cover;
+    /* This line ensures the image scales to fit the container */
     color: white;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
     padding: 2rem;
     margin: 0px;
     flex-direction: column;
-    
-  }
+
+}
 
 .hero h1,
 .hero p {
@@ -131,6 +141,7 @@ nav li a:hover {
     border: 1px solid #ccc;
     text-align: center;
     padding: 20px;
+    background-color: white;
 }
 
 .rental-card img {
@@ -203,6 +214,7 @@ nav li a:hover {
 #weather {
     padding: 20px 5px;
     text-align: left;
+    background-color: sandybrown;
 }
 
 #current-weather,
@@ -215,17 +227,79 @@ nav li a:hover {
 }
 
 /*Footer */
+footer {
+    text-align: center;
+    margin: 0 auto;
+    background-color: sandybrown;
+    height: 100%;
+}
 
 /* Map */
 
 .map {
-  width: 100%;
-  height: 100%;
-  position: relative; /* Needed for positioning the iframe absolutely */
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* Needed for positioning the iframe absolutely */
 }
 
 .map iframe {
-  width: 100%; /* Set iframe width to 100% of its container */
-  height: 100%; /* Set iframe height to 100% of its container */
+    width: 100%;
+    /* Set iframe width to 100% of its container */
+    height: 100%;
+    /* Set iframe height to 100% of its container */
 }
-  
+
+/* Rental Page Cards & Table */
+.card {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px auto;
+    display: grid;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    /* Add box shadow */
+    width: 300px;
+    background-color: white;
+
+}
+
+.card img {
+    display: block;
+    /* Center the image horizontally */
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e0ffe2;
+    /* Light green */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #c6a979;
+    /* Tropical brown */
+}
+
+tr:first-child {
+    background-color: #d0c0eb;
+    /* Light purple */
+}

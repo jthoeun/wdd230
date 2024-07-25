@@ -17,7 +17,8 @@
     .navigation {
         display: block;
     }
-/* Nav */
+
+    /* Nav */
     nav {
         display: flex;
         justify-content: space-around;
@@ -37,43 +38,50 @@
         padding: 0px;
         margin: 0px;
     }
+
     nav ul {
         padding: 0;
         display: flex;
         justify-content: space-evenly;
-      }
+    }
 
-      
-      nav li {
+
+    nav li {
         display: inline-block;
         margin: 0 10px;
-      }
-/* Rental section */
+    }
+
+    /* Rental section */
     .rental-card {
         flex-direction: column;
     }
-/* weather */
+
+    /* weather */
     .weather {
         display: flex;
         justify-content: space-between;
     }
-    #weather{
+
+    #weather {
         text-align: center;
     }
+
     #current-weather,
     #forecast-weather {
         display: inline-block;
         width: 45%;
         /* Adjust width as needed */
     }
-/* Hero */
+
+    /* Hero */
     .hero {
-      height: 500px;
-      /* Remove any width related styles here */
+        height: 500px;
+        /* Remove any width related styles here */
     }
-/* Map */
-.map {
-    grid-column: 1/3;
-}  
+
+    /* Map */
+    .map {
+        grid-column: 1/3;
+    }
 
 }
