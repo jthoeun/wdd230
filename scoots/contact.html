@@ -29,7 +29,7 @@
             <li><a href="/scoots/index.html">Home</a></li>
             <li><a href="/scoots/rental.html">Rentals</a></li>
             <li><a href="/scoots/reserve.html">Reserve</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="/scoots/contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
@@ -40,15 +40,16 @@
                     <h2>Send a Messege!</h2>
                     <form id="contact-form" action="thankyou.html">
                         <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
 
                         <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
+                        <input type="email" id="email" name="email" required placeholder="Your Email">
+
                         <label for="phone">Phone Number:</label>
-                        <input type="tel" id="phone" name="phone" pattern="[0-9]+">
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]+" placeholder="Phone Number">
 
                         <label for="message">Message:</label>
-                        <textarea id="message" name="message" required></textarea>
+                        <textarea id="message" name="message" required placeholder="Your Message"></textarea>
 
                         <button type="submit">Send Message</button>
                     </form>
@@ -56,6 +57,17 @@
                 <section id="map">
                     <div class="map-card">
                         <h2>Map!</h2>
+                        <h3>Location 1</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7475.446839062167!2d-86.973434!3d20.47655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e57491a71c81d%3A0x6933058e58e0ee3d!2sPuerta%20Maya%20Cruise%20Ship%20Maritime%20Terminal!5e0!3m2!1sen!2sus!4v1721875662778!5m2!1sen!2sus"
+                            height="450" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <h3>Location 2</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14936.776765801178!2d-87.074903!3d20.62094!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e4300472e555b%3A0xf5b3f2aecf1641bd!2sFerry%20Boarding%20Dock!5e0!3m2!1sen!2sus!4v1721875825022!5m2!1sen!2sus"
+                            height="450" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                     </div>
                 </section>
         </body>

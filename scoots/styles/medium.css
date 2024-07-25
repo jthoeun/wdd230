@@ -110,4 +110,9 @@
         flex-direction: column;
         /* Adjust the width as needed */
     }
+
+    .contact-cards,
+    .map-card {
+        display: grid;
+    }
 }
