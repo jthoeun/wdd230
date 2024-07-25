@@ -387,3 +387,9 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+/* Contact styling */
+#contact,
+#map h2 {
+    text-align: center;
+}

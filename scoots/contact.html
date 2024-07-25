@@ -36,11 +36,29 @@
 
         <body>
             <section id="contact">
-                <h2>Contact Us</h2>
-            </section>
+                <div class="contact-cards">
+                    <h2>Send a Messege!</h2>
+                    <form id="contact-form" action="thankyou.html">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]+">
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <section id="map">
+                    <div class="map-card">
+                        <h2>Map!</h2>
+                    </div>
+                </section>
         </body>
-
-
     </main>
     <footer>
         <p>© 2024 Scoots</p>
