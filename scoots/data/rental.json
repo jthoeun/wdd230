@@ -11,7 +11,7 @@
         "halfDay": "$25",
         "fullDay": "$35"
       },
-      "image": "https://jthoeun.github.io/wdd230/scoots/images/honda-metro.png"
+      "imageurl": "https://jthoeun.github.io/wdd230/scoots/images/honda-metro.png"
     },
     {
       "type": "Honda Dio Scooter",
@@ -24,7 +24,7 @@
         "halfDay": "$35",
         "fullDay": "$45"
       },
-      "image": "honda_dio_scooter.jpg"
+      "imageurl": "https://jthoeun.github.io/wdd230/scoots/images/honda-dio.png"
     },
     {
       "type": "Honda PCX150 Scooter",
@@ -37,7 +37,7 @@
         "halfDay": "$45",
         "fullDay": "$55"
       },
-      "image": "honda_pcx150_scooter.jpg"
+      "imageurl": "https://jthoeun.github.io/wdd230/scoots/images/honda-pcx.png"
     },
     {
       "type": "Honda Pioneer ATV",
@@ -50,7 +50,7 @@
         "halfDay": "$60",
         "fullDay": "$80"
       },
-      "image": "honda_pioneer_atv.jpg"
+      "imageurl": "https://jthoeun.github.io/wdd230/scoots/images/atv.png"
     },
     {
       "type": "Jeep Wrangler - 4 door with a/c",
@@ -63,7 +63,7 @@
         "halfDay": "$85",
         "fullDay": "$125"
       },
-      "image": "jeep_wrangler_4door.jpg"
+      "imageurl": "https://jthoeun.github.io/wdd230/scoots/images/4-door-jeep-wrangler.webp"
     },
     {
       "type": "Jeep Wrangler - 2 door",
@@ -76,7 +76,7 @@
         "halfDay": "$70",
         "fullDay": "$100"
       },
-      "image": "jeep_wrangler_2door.jpg"
+      "imageurl": "https://jthoeun.github.io/wdd230/scoots/images/jeep.png"
     }
   ]
 }
