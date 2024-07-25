@@ -10,7 +10,7 @@ fetch(url)
             card.classList.add('card');
 
             card.innerHTML = `
-            <img src="${rental.imageUrl}" alt="${rental.type}">
+            <img src="scoots${rental.imageUrl}" alt="${rental.type}">
             <h2>${rental.type}</h2>
             <p>Max Persons: ${rental.maxPersons}</p>
             <table>
