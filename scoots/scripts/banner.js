@@ -1,20 +1,11 @@
-function showBanner() {
-    const today = new Date();
-    const showOnDays = [1, 2, 3];
+function closeBanner() {
+  const banner = document.getElementById('banner');
+  const closeButton = document.getElementById('closeBanner');
 
-
-    if (showOnDays.includes(today.getDay())) {
-        document.getElementById("banner").style.display = "block";
-    } else {
-        document.getElementById("banner").style.display = "none";
-    }
-
-
-    const closeButton = document.getElementById("closeBanner");
-
-    closeButton.addEventListener("click", function () {
-        document.getElementById("banner").style.display = "none";
-    });
+  closeButton.addEventListener('click', () => {
+    banner.style.display = 'none';
+  });
 }
 
-window.onload = showBanner;
+// Call the function to initialize the banner behavior
+closeBanner();
