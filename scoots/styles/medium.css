@@ -86,7 +86,28 @@
 
     /* Rental Page cards & Table */
     .card {
-        flex-direction: column;
+        display: inline-block
     }
 
+    /* Reservation page & Form Styling */
+    .reservation-container {
+        display: flex;
+        justify-content: center;
+        /* Center the cards horizontally */
+        margin: 0 auto;
+        display: flex;
+        /* Make the container a flex container */
+        flex-wrap: wrap;
+        /* Allow the cards to wrap to the next line on smaller screens */
+        justify-content: space-between;
+        /* Space the cards evenly */
+    }
+
+    .terms-card,
+    .reservation-card {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        /* Adjust the width as needed */
+    }
 }
