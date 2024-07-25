@@ -10,7 +10,7 @@ fetch(url)
             card.classList.add('card');
 
             card.innerHTML = `
-            <img src="images/${rental.image}" alt="${rental.type}">
+            <img src="${rental.imageUrl}" alt="${rental.type}">
             <h2>${rental.type}</h2>
             <p>Max Persons: ${rental.maxPersons}</p>
             <table>
@@ -34,6 +34,7 @@ fetch(url)
                     </tr>
                 </tbody>
             </table>
+            <button class="rent-button">Rent Now</button>
         `;
 
             return card;

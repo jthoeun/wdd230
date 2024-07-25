@@ -84,4 +84,9 @@
         grid-column: 1/3;
     }
 
+    /* Rental Page cards & Table */
+    .card {
+        flex-direction: column;
+    }
+
 }

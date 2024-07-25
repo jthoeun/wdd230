@@ -262,6 +262,10 @@ footer {
     /* Add box shadow */
     width: 300px;
     background-color: white;
+    width: 100%;
+    max-width: 300px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
 
 }
 
@@ -302,4 +306,14 @@ tbody tr:nth-child(even) {
 tr:first-child {
     background-color: #d0c0eb;
     /* Light purple */
+}
+
+.rent-button {
+    background-color: #4CAF50;
+    /* Green color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
