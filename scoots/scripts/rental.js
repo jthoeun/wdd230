@@ -38,8 +38,7 @@ fetch(url)
         `;
             const rentButton = card.querySelector('.rent-button');
             rentButton.addEventListener('click', () => {
-                // Open reservation page logic here
-                window.location.href = 'reserve.html'; // Replace with your reservation page URL and pass rental ID
+                window.location.href = 'reserve.html';
             });
 
             return card;
