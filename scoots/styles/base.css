@@ -3,8 +3,15 @@
 /* General styles */
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     background-color: sandybrown;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
 }
 
 /* Header */
@@ -13,6 +20,8 @@ header {
     flex-direction: column;
     justify-content: space-between;
     background-color: #90EE90;
+    margin: 0;
+    padding: 0;
 }
 
 header h1 {
@@ -28,10 +37,10 @@ main {
 
 /*Nav*/
 nav {
-    background-color: #90EE90;
-    padding: 10px;
+    background-color: #a9eea9;
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 
@@ -44,8 +53,8 @@ nav ul {
 nav li {
     display: inline-block;
     margin: 10px 0;
-    font-family: "Roboto", sans-serif;
-    font-size: larger;
+    font-family: "Roboto Medium 500", sans-serif;
+    font-size: 35px;
 }
 
 nav li a {
@@ -72,12 +81,15 @@ nav li a:hover {
     content: "X";
 }
 
-.navigation {
+.nav {
     display: none;
+    list-style-type: none;
 }
 
-.navigation.open {
-    display: block;
+nav.open ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 /* Style the hamburger button */
@@ -95,6 +107,12 @@ nav li a:hover {
     cursor: pointer;
     z-index: 1000;
     /* Ensure it's above other elements */
+}
+
+#menu::before,
+#menu.open::before {
+    font-size: 30px;
+    /* Adjust the size as needed */
 }
 
 
