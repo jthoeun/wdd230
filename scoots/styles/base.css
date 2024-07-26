@@ -37,7 +37,7 @@ main {
 
 /*Nav*/
 nav {
-    background-color: #a9eea9;
+    background-color: #90EE90;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -206,19 +206,29 @@ nav.open ul {
 .social-media {
     display: flex;
     justify-content: center;
+    font-family: "Roboto Medium 500", sans-serif;
+    font-size: 25px;
 }
 
 .social-media li {
-    margin: 0 10px;
+    margin: 0 25px;
+}
+
+.social-media h2,
+span {
+    font-size: 25px;
 }
 
 #contact {
     text-align: center;
     margin: 0 auto;
+    background-color: #90EE90;
+    margin: 0;
+    padding: 0;
 }
 
 #contact h2 {
-    margin-right: 10px;
+    margin-right: 30px;
     /* Adjust spacing as needed */
 }
 
@@ -252,9 +262,16 @@ nav.open ul {
 /*Footer */
 footer {
     text-align: center;
-    margin: 0 auto;
-    background-color: sandybrown;
+    background-color: #90EE90;
     height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.footer p,
+a {
+    font-size: 30px;
+
 }
 
 /* Map */

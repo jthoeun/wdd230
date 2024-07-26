@@ -14,14 +14,11 @@
         display: none;
     }
 
-    .navigation {
-        display: block;
-    }
 
     /* Nav */
     nav {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
 
     }
