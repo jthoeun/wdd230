@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: sandybrown;
+    background-color: #f4a460;
 }
 
 body,
@@ -137,6 +137,14 @@ nav.open ul {
 .hero h1,
 .hero p {
     margin: 0;
+}
+
+.hero h1 {
+    font-size: 75px;
+}
+
+.hero p {
+    font-size: 35px;
 }
 
 .hero .cta {
@@ -480,7 +488,7 @@ button:hover {
 
 /* banner */
 #banner {
-    background-color: greenyellow;
+    background-color: #adff2f;
     padding: 1rem;
     text-align: center;
     display: flex;
@@ -495,7 +503,8 @@ button:hover {
 #banner h2 {
     margin: 0;
     font-size: 1.2rem;
-    font-family: "Roboto", Helvetica, sans-serif;
+    font-family: "Roboto Bold 700 ", Helvetica, sans-serif;
+    color: black
 }
 
 #closeBanner {
