@@ -274,6 +274,11 @@ a {
 
 }
 
+footer p {
+    font-size: 30px;
+}
+
+
 /* Map */
 
 .map {
